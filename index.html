@@ -64,6 +64,38 @@
             color: white;
             text-align: center;
         }
+        @media screen and (max-width: 600px) {
+            body {
+                margin: 5px;
+            }
+            .container {
+                padding: 10px;
+            }
+            .accordion {
+                font-size: 14px;
+                padding: 10px;
+            }
+            .panel {
+                padding: 10px;
+            }
+            table {
+                font-size: 12px;
+            }
+            th, td {
+                padding: 6px;
+            }
+        }
+
+        /* Responsive cho iPad (màn hình từ 600px đến 1024px) */
+        @media screen and (max-width: 1024px) {
+            .container {
+                max-width: 90%;
+            }
+            .accordion {
+                font-size: 16px;
+                padding: 12px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -74,7 +106,7 @@
         <div class="panel">
             <p>Ngôn ngữ máy thường ở dạng nhị phân hay hợp ngữ &#8594; Chương trình khó viết và khó hiểu.</p>
             <p>Ngôn ngữ lập trình bậc cao với câu lệnh gần với ngôn ngữ tự nhiên &#8594; Cần chương trình dịch để máy tính hiểu</p>
-            <p>Một số ngôn ngữ lập trình: Java, C/C++, Python, ...</p>
+            <p>Một số ngôn ngữ lập trinh: Java, C/C++, Python, ...</p>
         </div>
         <button class="accordion">Biến và Kiểu Dữ Liệu</button>
         <div class="panel">
@@ -135,10 +167,10 @@
         <div class="panel">
             <p>Cú pháp:</p>
             <pre><code>for &lt;i&gt; in range(n) <br>     &lt;khối lệnh&gt;</code></pre>
-            <p>Ví dụ 4:</p>
+            <p>Ví dụ 1:</p>
             <pre><code>for k in range(10): <br>      s=s+k</code></pre>
-            <p>Ví dụ 5: Viết chương trình nhập từ bàn phím số tự nhiên n và in ra kết quả S= 1 + 2 + .... + n</p>
-            <p>Ví dụ 6: Viết chương trình nhập từ bàn phím số tự nhiên n và in ra kết quả S= 1^3 + 2^3 + .... + n^3</p>
+            <p>Ví dụ 2: Viết chương trình nhập từ bàn phím số tự nhiên n và in ra kết quả S= 1 + 2 + .... + n</p>
+            <p>Ví dụ 3: Viết chương trình nhập từ bàn phím số tự nhiên n và in ra kết quả S= 1^3 + 2^3 + .... + n^3</p>
         </div>
         
     </div>
